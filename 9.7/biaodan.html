@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>表单+验证</title>
+	<meta charset="utf-8"/>
+  </head>
+  <body>
+    <form action="http://www.baidu.com/s">
+     <table align="center" border="1" cellspacing="0" width="500" height="300">
+	  <caption style-size="5">用户注册</caption>
+	  <tr>
+	   <td align="right" width="30%"><label for="username">用户名:</label></td>
+	   <td>
+	    <input name="wd" id="username" type="text" placeholder="请输入用户名" required pattern="^\s*\S+(\s*\S+)+\s*$"/>
+	   </td>
+	  </tr>
+	  <tr>
+	   <td align="right"><label for="password">密码:</label></tb>
+	   <td>
+	    <input name="pwd" id="password" type="password" required placeholder="请输入密码" pattern="^\d{6}$"/></td>
+	  </tr>
+	  <tr>
+	   <td align="right"><label for="sex">性别:</label></td>
+	   <td><input name="sex" id="sex" type="radio" checked/>男
+           <input name="sex" id="sex" type="radio"/>女
+       </td>
+      </tr>
+	  <tr>
+	   <td align="right">爱好:</td>
+	   <td><input type="checkbox"/>运动
+	       <input type="checkbox"/>看书
+           <input type="checkbox"/>编程
+		   <input type="checkbox"/>看电影
+       </td>
+	  </tr>
+	  <tr>
+	   <td align="right">学历:</td>
+	   <td><select>
+	        <option>本科</option>
+			<option>大专</option>
+			<option>中专</option>
+			<option>高中</option>
+		   </select>
+	   </td>
+	  </tr>
+	  <tr>
+	   <td align="right">头像:</td>
+	   <td>
+	    <input type="file"/>
+	   </td>
+	  </tr>
+	  <tr>
+	   <td align="right">简历:</td>
+	   <td>
+	    <textarea cols="50" rows="8" required placeholder="请输入简历">
+		</textarea>
+	   </td>
+	  </tr>
+	  <tr>
+	   <td align="right">出生年月:</td>
+	   <td>
+	    <input type="datetime"/>
+	   </td>
+	  </tr>
+	  <tr>
+	   <td align="right">邮箱:</td>
+	   <td>
+	    <input type="email" id="email" required pattern="^[A-Za-z]\w{5,17}@\w+(\.\w+)+$"/>
+	   </td>
+	  </tr>
+	  <tr>
+	   <th colspan="2">
+	   <input type="reset" value="清除"/>
+       <input type="submit" value="百度一下"/>
+	   </th>
+	  </tr>
+	</table>
+   </form>
+  </body>
+</html>
