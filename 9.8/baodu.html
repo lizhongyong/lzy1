@@ -5,9 +5,9 @@
     <meta charset="UTF-8"/>
     <link rel="shortcut icon" type="image/x-icon" href="../image/taobao.ico"/>
     <style>
-    a{display:block;float:right;padding-right:5px;}
+    .a{display:block;float:right;padding-right:5px;}
     .d{float:right;width:100px;height:20px;text-align:center;color:white;background-color:blue;overflow:hidden;}
-    .d:hover{5px;cursor:help;width:100px;height:500px;border:1px solid black;
+    .d:hover{5px;cursor:arrow;width:100px;height:500px;border:1px solid black;
              background-color:rgb(227,227,227);}
     img{margin-top:10px;}
     .i{position:absolute;left:500px;top:150px;}
@@ -19,21 +19,21 @@
         margin-top:5px;background-image:url(../image/camera.png);}
     .d2:hover{width:18px;height:18px;float:left;margin-left:5px;margin-right:5px;
         margin-top:5px;background-image:url(../image/camera.png);
-        background-position:0px -20px;}
+        background-position:0px -20px;cursor:pointer;}
     .in2{float:right;height:28px;background-color:blue;color:white;border:none;}
     .in1:focus{position:absolute;width:575px;height:20px;border:1px solid   blue;background-color:transparent;}
     </style>
   </head>
     <body>
       <form action="http://www.baidu.com/s"/>
-        <div class="d">更多产品
-        <a href="http://baidu.com"><img src="../image/girl.jpg" width="80" height="80"/></a>
-        </div>
-        <a href="http://www.baidu.com">新闻</a>
-        <a href="http://www.baidu.com">体育</a>
-        <a href="http://www.baidu.com">小说</a>
-        <a href="http://www.baidu.com">图片</a>
-        <a href="http://www.baidu.com">电影</a>
+        <span class="d">更多产品
+          <a href="http://baidu.com"><img src="../image/girl.jpg" width="80" height="80"/></span>
+        </a>
+        <a class="a" href="http://www.baidu.com">新闻</a>
+        <a class="a" href="http://www.baidu.com">体育</a>
+        <a class="a" href="http://www.baidu.com">小说</a>
+        <a class="a" href="http://www.baidu.com">图片</a>
+        <a class="a" href="http://www.baidu.com">电影</a>
         <img class="i" src="../image/bd_logo.png" width="270" height="129"/>
         <div class="d1">
           <input class="in1"/>
