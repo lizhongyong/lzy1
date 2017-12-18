@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="css/sina.css" />
+		<style>
+			.f{
+				width: 630px; height: 350px; /*border: 1px solid black;*/ overflow: hidden;
+				/*margin-top: 100px; margin-left: 300px;*/ position: relative;
+			}
+			
+			.c1{
+				background-image: url(img/1.jpg); position: absolute;left: -1890px;
+				width: 100%; height: 100%; 
+			}
+			.c2{
+				background-image: url(img/2.jpg); position: absolute;left: -1260px;
+				width: 100%; height: 100%; 
+			}
+			.c3{
+				background-image: url(img/3.jpg); position: absolute;left: -630px;
+				width: 100%; height: 100%; 
+			}
+			.c4{
+				background-image: url(img/4.jpg); position: absolute;left: 0px;
+				width: 100%; height: 100%; 
+			}
+			.c5{
+				background-image: url(img/5.jpg); position: absolute;left: 630px;
+				width: 100%; height: 100%; 
+			}
+			.c6{
+				background-image: url(img/6.jpg); position: absolute;left: 1260px;
+				width: 100%; height: 100%; 
+			}
+			.c7{
+				background-image: url(img/7.jpg); position: absolute;left: 1890px;
+				width: 100%; height: 100%; 
+			}
+			button{
+				width: 30px; height: 50px; font-size: 20px; border-style: none;
+				background-color: rgba(40,40,40,0.3); color: white;
+			}
+			button:hover{
+				background-color: rgba(40,40,40,1); 
+			}
+			.left{
+				position: absolute;left: 0px; top: 140px;
+			}
+			.right{
+				position: absolute;right: 0px; top: 140px;
+			}
+			.f ul{
+				list-style-type: none;
+			}
+			.f ul li{
+				float: left; width: 15px; height: 15px;/* border: 1px solid black;*/ border-radius: 15px;
+				margin-left: 10px; background-color: rgb(187,187,187);
+			}
+			.yuan{
+				position: absolute;bottom: 0px; right: 0px; /*border: 1px solid red;*/
+				width: 280px; height: 20px;
+			}
+		</style>
+		<script type="text/javascript" src="js/jquery-1.12.1.min.js" ></script>
+		<script src="js/sina.js"></script>
+		<script src="js/lunBoTu.js"></script>
+	</head>
+	<body>
+		<div class="daoh1">
+			<div class="daoh11">
+				<ul>
+					<li class="nba l">
+						<a href="#" class="a-nba">新浪NBA</a>
+					</li>
+					<li class="l">
+						<a href="#">新闻</a>
+					</li>
+					<li class="l">
+						<a href="#">体育</a>
+					</li>
+					<li class="l">
+						<a href="#">财经</a>
+					</li>
+					<li class="l">
+						<a href="#">娱乐</a>
+					</li>
+					<li class="l">
+						<a href="#">科技</a>
+					</li>
+					<li class="l">
+						<a href="#">博客</a>
+					</li>
+					<li class="l">
+						<a href="#">图片</a>
+					</li>
+					<li class="l">
+						<a href="#">专栏</a>
+					</li>
+					<li class="l">
+						<a href="#">汽车</a>
+					</li>
+					<li class="l">
+						<a href="#">教育</a>
+					</li>
+					<li class="l" id="gd">
+						<a href="#" class="glyphicon glyphicon-option-horizontal" ></a>
+						<br />
+						<span class="glyphicon glyphicon-triangle-bottom"></span>
+					</li>
+					<li class="denglu">
+						<a href="#" class="glyphicon glyphicon-user"></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="gengduo">
+			<ul>
+				<li>
+					<a href="#">星座</a>
+				</li>
+				<li>
+					<a href="#">星座</a>
+				</li>
+				<li>
+					<a href="#">星座</a>
+				</li>
+				<li>
+					<a href="#">星座</a>
+				</li>
+				<li>
+					<a href="#">星座</a>
+				</li>
+				<li>
+					<a href="#">星座</a>
+				</li>
+				<li>
+					<a href="#">星座</a>
+					
+				</li>
+				<li>
+					<a href="#">星座</a>
+				</li>				
+			</ul>
+		</div>
+		<div id="dengluzhuce">
+			<table>				
+				<a href="#" class="glyphicon glyphicon-remove"></a>				
+				<tr>
+					<td class="td1" colspan="2" >新浪微博、博客、邮箱帐号，请直接登录</td>
+				</tr>
+				<tr>
+					<td class="td1" colspan="2" >
+						<input type="text" />
+					</td>					
+				</tr>
+				<tr>
+					<td class="td1" colspan="2">
+						<input type="text" />
+					</td>
+				</tr>
+				<tr>
+					<td class="td2">
+						<button id="but-denglu">登录</button>
+					</td>
+					<td class="td2">
+						<input type="checkbox"/>下次自动登录
+					</td>
+				</tr>
+				<tr>
+					<td class="td1">
+						<a href="#">忘记密码</a>
+						<span>&nbsp;&nbsp;&nbsp;</span>
+						<a href="#">立即登录</a>
+					</td>
+				</tr>					
+			</table>
+		</div>
+		<div class="d-guanggao">
+			<img src="img/guanggao.jpg" />
+		</div>
+		
+		<div class="daoh2">
+			<div class="daoh21">
+				<ul>
+					<li class="nba2">
+						<span href="#" class="a-nba">NBA</span>
+					</li>
+					<li class="l2" id="h1">
+						<a href="#">直播</a>
+					</li>
+					<li class="l2" id="h2">
+						<a href="#">GIF</a>
+					</li>
+					<li class="l2" id="h3">
+						<a href="#">高清</a>
+					</li>
+					<li class="l2" id="h4">
+						<a href="#">赛程</a>
+					</li>
+					<li class="l2" id="h5">
+						<a href="#">排名</a>
+					</li>
+					<li class="l2" id="h6">
+						<a href="#">统计</a>
+					</li>
+					<li class="l2" id="h7">
+						<a href="#">球队</a>
+					</li>
+					<li class="l2" id="h8">
+						<a href="#">球员</a>
+					</li>
+					<li class="l2" id="h9">
+						<a href="#">查询</a>
+					</li>
+					<li class="l2" id="h10">
+						<a href="#">篮彩</a>
+					</li>
+					<li class="sou">
+						<input type="text" />
+						<a href="#" class="glyphicon glyphicon-search"></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="bd">
+			<div class="bd-left">
+				<ul>
+					<li>
+						<a href="#" class="fon-big">詹皇又三双骑士5连胜 老将榜:詹姆斯榜首</a>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<a href="#">詹皇又三双骑士5连胜 老将榜:詹姆斯榜首</a>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<a href="#">詹皇又三双骑士5连胜 老将榜:詹姆斯榜首</a>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<a href="#">詹皇又三双骑士5连胜 老将榜:詹姆斯榜首</a>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<a href="#">詹皇又三双骑士5连胜 老将榜:詹姆斯榜首</a>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<a href="#">詹皇又三双骑士5连胜 老将榜:詹姆斯榜首</a>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<a href="#">詹皇又三双骑士5连胜 老将榜:詹姆斯榜首</a>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<a href="#">詹皇又三双骑士5连胜 老将榜:詹姆斯榜首</a>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<a href="#" class="fon-big">詹皇又三双骑士5连胜 老将榜:詹姆斯榜首</a>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<a href="#">詹皇又三双骑士5连胜 老将榜:詹姆斯榜首</a>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<a href="#">詹皇又三双骑士5连胜 老将榜:詹姆斯榜首</a>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<a href="#">詹皇又三双骑士5连胜 老将榜:詹姆斯榜首</a>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<a href="#">詹皇又三双骑士5连胜 老将榜:詹姆斯榜首</a>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<a href="#">詹皇又三双骑士5连胜 老将榜:詹姆斯榜首</a>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<a href="#">詹皇又三双骑士5连胜 老将榜:詹姆斯榜首</a>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<a href="#">詹皇又三双骑士5连胜 老将榜:詹姆斯榜首</a>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<a href="#">詹皇又三双骑士5连胜 老将榜:詹姆斯榜首</a>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<a href="#">詹皇又三双骑士5连胜 老将榜:詹姆斯榜首</a>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<a href="#">詹皇又三双骑士5连胜 老将榜:詹姆斯榜首</a>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<a href="#" class="fon-big">詹皇又三双骑士5连胜 老将榜:詹姆斯榜首</a>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<a href="#">詹皇又三双骑士5连胜 老将榜:詹姆斯榜首</a>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<a href="#">詹皇又三双骑士5连胜 老将榜:詹姆斯榜首</a>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<a href="#">詹皇又三双骑士5连胜 老将榜:詹姆斯榜首</a>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<a href="#">詹皇又三双骑士5连胜 老将榜:詹姆斯榜首</a>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<a href="#">詹皇又三双骑士5连胜 老将榜:詹姆斯榜首</a>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<a href="#">詹皇又三双骑士5连胜 老将榜:詹姆斯榜首</a>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<a href="#">詹皇又三双骑士5连胜 老将榜:詹姆斯榜首</a>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<a href="#">詹皇又三双骑士5连胜 老将榜:詹姆斯榜首</a>
+					</li>
+				</ul>												
+			</div>
+			<div class="bd-right">				
+				<div class="f">
+					<div class="c1">1</div>
+					<div class="c2">2</div>
+					<div class="c3">3</div>
+					<div class="c4">4</div>
+					<div class="c5">5</div>
+					<div class="c6">6</div>
+					<div class="c7">7</div>
+					<button class="left">&lt;</button>
+					<button class="right">&gt;</button>
+					<div class="yuan">
+					<ul>
+						<li class="li1"></li>
+						<li class="li2"></li>
+						<li class="li3"></li>
+						<li class="li4"></li>
+						<li class="li5"></li>
+						<li class="li6"></li>
+						<li class="li7"></li>
+					</ul>
+					</div>
+				</div>
+				
+				<div class="tex">
+					<span>深度原创</span>
+				</div>
+				<div class="right-big">
+					<div class="right-lit" id="lit1">
+						<img src="img/cp3.jpg" class="img1"/>
+						<div class="div-img1"></div>
+						<a class="img1-s1" href="#">深度|火箭进化的关键在这几点</a>
+						<span class="img1-s2">作者：神侃</span>
+						<span class="img1-s3">2017-12-17</span>
+					</div>
+					<div class="right-lit" id="lit2">
+						<img src="img/c2.jpg" class="img1"/>
+						<div class="div-img1"></div>
+						<a class="img1-s1" href="#">深度|火箭进化的关键在这几点</a>
+						<span class="img1-s2">作者：神侃</span>
+						<span class="img1-s3">2017-12-17</span>
+					</div>
+					<div class="right-lit" id="lit3">
+						<img src="img/c3.jpg" class="img1"/>
+						<div class="div-img1"></div>
+						<a class="img1-s1" href="#">深度|火箭进化的关键在这几点</a>
+						<span class="img1-s2">作者：神侃</span>
+						<span class="img1-s3">2017-12-17</span>
+					</div>					
+					<div class="right-lit" id="lit4">
+						<img src="img/c4.jpg" class="img1"/>
+						<div class="div-img1"></div>
+						<a class="img1-s1" href="#">深度|火箭进化的关键在这几点</a>
+						<span class="img1-s2">作者：神侃</span>
+						<span class="img1-s3">2017-12-17</span>
+					</div>
+					<div class="right-lit" id="lit5">
+						<img src="img/c5.jpg" class="img1"/>
+						<div class="div-img1"></div>
+						<a class="img1-s1" href="#">深度|火箭进化的关键在这几点</a>
+						<span class="img1-s2">作者：神侃</span>
+						<span class="img1-s3">2017-12-17</span>
+					</div>
+					<div class="right-lit" id="lit6">
+						<img src="img/c6.jpg" class="img1"/>
+						<div class="div-img1"></div>
+						<a class="img1-s1" href="#">深度|火箭进化的关键在这几点</a>
+						<span class="img1-s2">作者：神侃</span>
+						<span class="img1-s3">2017-12-17</span>
+					</div>
+					<div class="right-lit" id="lit7">
+						<img src="img/c7.jpg" class="img1"/>
+						<div class="div-img1"></div>
+						<a class="img1-s1" href="#">深度|火箭进化的关键在这几点</a>
+						<span class="img1-s2">作者：神侃</span>
+						<span class="img1-s3">2017-12-17</span>
+					</div>
+					<div class="right-lit" id="lit8">
+						<img src="img/c3.jpg" class="img1"/>
+						<div class="div-img1"></div>
+						<a class="img1-s1" href="#">深度|火箭进化的关键在这几点</a>
+						<span class="img1-s2">作者：神侃</span>
+						<span class="img1-s3">2017-12-17</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="top">
+			<button class="glyphicon glyphicon-menu-up"></button>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,187 @@
+*{
+	margin: 0px; padding: 0px;
+}
+body{
+	position: relative;
+}
+a{
+	list-style-type: none;
+}
+.daoh1{
+	width: 100%; height:50px ; border-bottom: 1px solid gainsboro;
+}
+.daoh11{
+	width: 1000px; height:50px ;/* border: 1px solid red;*/ margin: auto;
+}
+ul{
+	list-style-type: none;
+}
+.nba{
+	float: left; font-size: 25px; font-style: italic; margin-top: 5px; 
+}
+.daoh1 .daoh11 ul .l:not(.nba){
+	float: left; margin-left: 20px; margin-top: 15px; 
+}
+.glyphicon-triangle-bottom{
+	color: grey; display: none;
+}
+.denglu{
+	float: right; color: red; margin-top: 15px; 
+}
+.daoh1 .daoh11 ul li a:not(.a-nba){
+	color: grey;
+}
+.daoh1 .daoh11 ul li a:not(.a-nba):hover{
+	color: red;
+}
+.daoh1 .daoh11 ul li .a-nba{
+	color: black;
+}
+
+.gengduo{
+	width: 200px; height: 50px; border: 1px solid gainsboro;
+	position: absolute; left: 650px; display: none;
+	
+}
+.gengduo ul li{
+	float: left; width: 47px;
+}
+#dengluzhuce{
+	position: absolute;left: 600px; top: 200px;z-index: 10; width: 350px; height: 300px;
+	/*border: 1px solid black;*/ background-color: gainsboro; display: none;
+}
+
+#dengluzhuce table {
+	display: block; position: absolute;top: 30px; left: 25px;
+}
+#dengluzhuce table tr{
+	display: block; margin-top: 20px; /*border: 1px solid red;*/
+	width: 300px; height: 30px;
+}
+#dengluzhuce table tr .td1{	
+	width: 100%; height: 100%;
+}
+.td2{	
+	width: 50%; height: 50%;
+}
+#dengluzhuce table tr .td1 input{	
+	display: block; width: 300px; height: 30px;
+}
+.glyphicon-remove{
+	display: block;position: absolute;right: 0px;
+}
+
+.d-guanggao{
+	width: 100%; height: 50px; margin-top: 5px;
+}
+.d-guanggao img{
+	display: block; margin: auto;
+}
+
+
+.daoh2{
+	width: 100%; height:50px ; border-bottom: 1px solid gainsboro;border-top: 1px solid gainsboro;
+	position: relative;top: 45px; background-color: red; z-index: 20;
+}
+.daoh21{
+	width: 1000px; height:50px ;/* border: 1px solid red;*/ margin: auto;
+}
+.nba2{
+	float: left; font-size: 25px; margin-top: 0px; color: white;
+}
+.daoh2 .daoh21 ul .l2{
+	float: left; margin-left: 15px; margin-top: 5px; 
+}
+.daoh2 .daoh21 ul li a:not(.glyphicon-search){
+	float: left; margin-left: 20px; margin-top: 5px; color: white;
+}
+.sou{
+	float: right; margin-top: 5px; 
+}
+
+.bd{
+	width: 1000px; height: 850px; margin: auto; border: 1px solid red;
+	position: relative;top: 50px;
+}
+.bd .bd-left{
+	width: 350px; height: 850px;/* border: 1px solid black;*/
+	position: absolute;left: 0px;top: 0px;
+}
+.bd .bd-right{
+	width: 630px; height: 850px; /*border: 1px solid black;*/
+	position: absolute;right: 0px;top: 0px;
+}
+.bd .bd-left ul li a{
+	color: black;
+}
+.bd .bd-left ul li .fon-big{
+	color: red; font-size: 18px;
+}
+.tex{
+	height: 50px; width: 600px;position: relative;left: 20px;top: 20px;
+	font-size: 20px;
+}
+.right-big{
+	position: relative;
+}
+.right-lit{
+	width: 310px; height: 97px; /*border: 1px solid red;*/
+	/*position: absolute;left: 0px;right: 0px;*/
+}
+#lit1{
+	position: absolute;left: 0px;top: 0px;
+}
+#lit2{
+	position: absolute;right: 0px;top: 0px;
+}
+#lit3{
+	position: absolute;left: 0px;top: 110px;
+}
+#lit4{
+	position: absolute;right: 0px;top: 110px;
+}
+#lit5{
+	position: absolute;left: 0px;top: 220px;
+}
+#lit6{
+	position: absolute;right: 0px;top: 220px;
+}
+#lit7{
+	position: absolute;left: 0px;top: 330px;
+}
+#lit8{
+	position: absolute;right: 0px;top: 330px;
+}
+.right-lit .div-img1{
+	width: 140px; height: 95px; border: 1px solid red;
+	position: absolute;left: 0px;right: 0px;
+}
+.right-lit .div-img1:hover{
+	background-color: rgba(0,0,0,0.3);
+}
+.right-lit .img1{
+	display: block; position: absolute;left: 0px;right: 0px;
+}
+.img1-s1{
+	display: inline-block;position: absolute;top: 0px;left: 150px;color: black;
+}
+.img1-s1:hover{
+	color: red;
+}
+.img1-s2{
+	display: inline-block;position: absolute;bottom: 20px;left: 150px;
+}
+.img1-s3{
+	display: inline-block;position: absolute;bottom: 0px;left: 150px;
+}
+
+.top{
+	position: absolute;top: 300px; right: 0px; position: fixed;
+}
+
+
+
+
+
+
+
