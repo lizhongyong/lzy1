@@ -25,14 +25,30 @@ $(function(){
 		$(this).css("color","black");
 	})
 	
-//	function getDaoHang2(){
-//		var index = $("html").scrollTop();
-//		if(index > 0){
-//			
+	$(".top").click(function(){
+		$("html").scrollTop(0);
+	})
+	
+	function getDaoHang2(){
+		var index = $("html").scrollTop();
+		if(index > 200){
+			$(".top").css("display","block");
 //			$(".daoh2").css("position","fixed");
 //			$(".daoh2").css("top","0px");
-//		}
-//	}
-//	var time = setInterval(getDaoHang2,2000);
+		}else{
+			$(".top").css("display","none");
+		}
+		
+		if(index > 200){
+			$(".daoh2").css("position","absolute");
+			$(".daoh2").css("top","0px");
+			$(".daoh2").css("position","fixed");
+			
+		}else{
+			$(".daoh2").css("position","relative");
+			$(".daoh2").css("top","35px");
+		}
+	}
+	var time = setInterval(getDaoHang2,20);
 	
 })
