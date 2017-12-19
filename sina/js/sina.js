@@ -31,7 +31,7 @@ $(function(){
 	
 	function getDaoHang2(){
 		var index = $("html").scrollTop();
-		if(index > 200){
+		if(index > 150){
 			$(".top").css("display","block");
 //			$(".daoh2").css("position","fixed");
 //			$(".daoh2").css("top","0px");
@@ -39,7 +39,7 @@ $(function(){
 			$(".top").css("display","none");
 		}
 		
-		if(index > 200){
+		if(index > 150){
 			$(".daoh2").css("position","absolute");
 			$(".daoh2").css("top","0px");
 			$(".daoh2").css("position","fixed");
@@ -50,5 +50,9 @@ $(function(){
 		}
 	}
 	var time = setInterval(getDaoHang2,20);
+	
+	$(".guanbi").click(function(){
+		$(".litGuangGao-right,.litGuangGao-left").css("display","none");
+	})
 	
 })

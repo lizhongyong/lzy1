@@ -7,6 +7,9 @@ body{
 a{
 	list-style-type: none;
 }
+a:hover{
+	color: red;
+}
 .daoh1{
 	width: 100%; height:50px ; border-bottom: 1px solid gainsboro;
 }
@@ -178,7 +181,20 @@ ul{
 .top{
 	position: absolute;top: 300px; right: 0px; position: fixed; display: none;
 }
-
+.litGuangGao-left{
+	width: 122px; height: 270px; /*border: 1px solid red;*/
+	position: absolute;top: 0px; left: 0px; z-index: 30;position: fixed;
+}
+.litGuangGao-left a{
+	display: inline-block;position: absolute;top: 0px; right: 0px;
+}
+.litGuangGao-right{
+	width: 122px; height: 270px; /*border: 1px solid red;*/
+	position: absolute;top: 0px; right: 0px; z-index: 30;position: fixed;
+}
+.litGuangGao-right a{
+	display: inline-block;position: absolute;top: 0px; left: 0px;
+}
 
 
 

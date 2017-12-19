@@ -1,0 +1,133 @@
+*{
+	margin: 0px; padding: 0px;
+}
+body{
+	position: relative;
+}
+a{
+	list-style-type: none;
+}
+a:hover{
+	color: red;
+}
+.daoh1{
+	width: 100%; height:50px ; border-bottom: 1px solid gainsboro;
+}
+.daoh11{
+	width: 1000px; height:50px ;/* border: 1px solid red;*/ margin: auto;
+}
+ul{
+	list-style-type: none;
+}
+.nba{
+	float: left; font-size: 25px; font-style: italic; margin-top: 5px; 
+}
+.daoh1 .daoh11 ul .l:not(.nba){
+	float: left; margin-left: 20px; margin-top: 15px; 
+}
+.glyphicon-triangle-bottom{
+	color: grey; display: none;
+}
+.denglu{
+	float: right; color: red; margin-top: 15px; 
+}
+.daoh1 .daoh11 ul li a:not(.a-nba){
+	color: grey;
+}
+.daoh1 .daoh11 ul li a:not(.a-nba):hover{
+	color: red;
+}
+.daoh1 .daoh11 ul li .a-nba{
+	color: black;
+}
+
+.gengduo{
+	width: 200px; height: 50px; border: 1px solid gainsboro;
+	position: absolute; left: 650px; display: none; z-index: 2;
+	background-color: gainsboro;
+	
+}
+.gengduo ul li{
+	float: left; width: 47px;
+}
+#dengluzhuce{
+	position: absolute;left: 600px; top: 200px;z-index: 10; width: 350px; height: 300px;
+	/*border: 1px solid black;*/ background-color: gainsboro; display: none;
+}
+
+#dengluzhuce table {
+	display: block; position: absolute;top: 30px; left: 25px;
+}
+#dengluzhuce table tr{
+	display: block; margin-top: 20px; /*border: 1px solid red;*/
+	width: 300px; height: 30px;
+}
+#dengluzhuce table tr .td1{	
+	width: 100%; height: 100%;
+}
+.td2{	
+	width: 50%; height: 50%;
+}
+#dengluzhuce table tr .td1 input{	
+	display: block; width: 300px; height: 30px;
+}
+.glyphicon-remove{
+	display: block;position: absolute;right: 0px;
+}
+
+.bg-img{
+	background-image: url(../img/banner.jpg); 
+	width: 100%; height: 160px; 
+}
+.daoHang2{
+	width: 100%; height: 30px; background-color: red;
+	position: absolute;top: 210px; overflow: hidden;
+}
+.daoHang2 ul li{
+	float: left; margin-left: 30px; margin-top: 5px;
+}
+.daoHang2 ul li:not(.this) a{
+	color: gainsboro;
+}
+.daoHang2 ul li a:hover{
+	color: white;
+}
+.this a{
+	color: white;
+}
+
+.dao1{
+	width: 300px; height: 30px;
+	transform:skew(-30deg);
+	-webkit-transform: skew(-30deg);   
+	-moz-transform: skew(-30deg);   
+	-o-transform:skew(-30deg);   
+	-ms-transform:skew(-30deg);   
+	/*background-color: red; */  
+	/*margin: 50px auto; */ 
+	/*width: 300px; height: 30px;*/ background-color: black; float: right; 
+	position: absolute;top: 0px;right: -10px; overflow: hidden;
+}
+
+.inp-s{
+	display: inline-block; position: absolute;right: 300px;top: 5px; /*z-index: 5;*/
+	background-color: rgba(98,98,98,0.5); border-style: none;
+	color: white;
+}
+.glyphicon-search{
+	position: absolute;right: 270px;top: 8px; color: white;
+}
+
+/*搜索*/
+.souSuo{
+	width: 404px; height: 30px; 
+	position: absolute;top: 280px;left: 500px; /*border: 1px solid black;*/
+}
+.souSuo input{
+	width: 350px; height: 30px; display: block; float: left;
+}
+.souSuo button{
+	width: 50px; height: 30px; display: block; float: left;
+	background-color: brown; color: white; border-style: none;
+}
+
