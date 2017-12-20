@@ -125,9 +125,233 @@ ul{
 }
 .souSuo input{
 	width: 350px; height: 30px; display: block; float: left;
+	outline: none;
 }
 .souSuo button{
 	width: 50px; height: 30px; display: block; float: left;
 	background-color: brown; color: white; border-style: none;
 }
 
+/*热门球员*/
+.px-reM{
+	width: 120px; height: 30px; /*border: 1px solid red;*/
+	position: absolute;top: 350px; left: 100px;
+}
+.px-reM .rm-1{
+	width: 30px; height: 30px;
+	transform:skew(-30deg);
+	-webkit-transform: skew(-30deg);   
+	-moz-transform: skew(-30deg);   
+	-o-transform:skew(-30deg);   
+	-ms-transform:skew(-30deg); 
+	background-color: red;
+	position: absolute;left: 0px;
+}
+.px-reM .rm-3{
+	width: 30px; height: 30px;
+	transform:skew(-30deg);
+	-webkit-transform: skew(-30deg);   
+	-moz-transform: skew(-30deg);   
+	-o-transform:skew(-30deg);   
+	-ms-transform:skew(-30deg); 
+	background-color: red;
+	position: absolute;right: 0px;
+}
+.px-reM .rm-2{
+	width: 80px; height: 30px; background-color: red;
+	position: absolute;left: 20px; text-align: center;
+	font-size: 15px;
+}
+.px-reM .rm-2 span{
+	display: block; margin-top: 5px; color: white;
+}
+/*Hr*/
+.div-hr{
+	width: 950px;border: 0.3px solid gainsboro;
+	position: absolute;top: 380px; left: 300px;
+}
+/*球员图片*/
+.img-qiuY{
+	width: 1200px; height: 500px; /*border: 1px solid red;*/
+	position: absolute;top: 400px; left: 80px;
+}
+.img-qiuY table{
+	 width: 100%; table-layout: fixed;
+}
+.img-qiuY table tr td{
+	/*border: 1px solid black;*/ text-align: center; width: 150px; /*height: 200px;*/
+	padding-left: 20px;
+}
+.img-qiuY table tr td img{
+	width: 100%;
+}
+
+/*赛季球员*/
+.px-sJ{
+	width: 200px; height: 30px; /*border: 1px solid red;*/
+	position: absolute;top: 900px; left: 100px;
+}
+.px-sJ .sj-1{
+	width: 30px; height: 30px;
+	transform:skew(-30deg);
+	-webkit-transform: skew(-30deg);   
+	-moz-transform: skew(-30deg);   
+	-o-transform:skew(-30deg);   
+	-ms-transform:skew(-30deg); 
+	background-color: red;
+	position: absolute;left: 0px;
+}
+.px-sJ .sj-3{
+	width: 30px; height: 30px;
+	transform:skew(-30deg);
+	-webkit-transform: skew(-30deg);   
+	-moz-transform: skew(-30deg);   
+	-o-transform:skew(-30deg);   
+	-ms-transform:skew(-30deg); 
+	background-color: red;
+	position: absolute;right: 0px;
+}
+.px-sJ .sj-2{
+	width: 160px; height: 30px; background-color: red;
+	position: absolute;left: 20px; text-align: center;
+	font-size: 15px;
+}
+.px-sJ .sj-2 span{
+	display: block; margin-top: 5px; color: white;
+}
+/*Hr2*/
+.div-hr2{
+	width: 950px;border: 0.3px solid gainsboro;
+	position: absolute;top: 930px; left: 320px;
+}
+/*湖人*/
+.huRen{
+	width: 1200px; height: 150px; border-bottom: 1px solid gainsboro; 
+	position: absolute;top: 950px; left: 80px;
+}
+.qiud-top{
+	height: 60px; /*border: 1px solid black;*/ position: relative;
+}
+.qiud-img{
+	width: 60px;
+}
+.qiudName{
+	display: inline-block; font-size: 30px; 
+	position: absolute;bottom: 0px;left: 80px;
+}
+.qiudName-E{
+	display: inline-block; color: darkgray; font-size: 20px;
+	position: absolute;bottom: 0px;left: 250px;
+}
+.qiuy-Name1{
+	position: absolute;left: -100px; top: 70px; /*border: 1px solid red; overflow: hidden;*/
+	width: 1300px; /*height: 20px;*/
+}
+.qiuy-Name1 ul li{
+	float: left; margin-left: 100px; /*border: 1px solid red;*/ overflow: hidden;
+	width: 200px; height: 20px;
+}
+.qiuy-Name2{
+	position: absolute;left: -100px; top: 110px; /*border: 1px solid red; overflow: hidden;*/
+	width: 1300px; /*height: 20px;*/
+}
+.qiuy-Name2 ul li{
+	float: left; margin-left: 100px; /*border: 1px solid red;*/ overflow: hidden;
+	width: 200px; height: 20px;
+}
+#a-red{
+	color: red;
+}
+/*凯尔特人*/
+.kaiErTe{
+	width: 1200px; height: 150px; border-bottom: 1px solid gainsboro; 
+	position: absolute;top: 1110px; left: 80px;
+}
+#kaizi{
+	left: 300px;
+}
+/*底部*/
+.bott{
+	width: 100%; height: 300px; position: absolute;top: 1280px;
+	background-color: rgba(244,244,244,1); 
+}
+.bott-1{
+	width: 100%;height: 100px; position: absolute;top: 40px;
+}
+.bott-1 div{
+	height: 100px; /*border: 1px solid red;*/ float: left;
+	position: relative;
+}
+.bott-1 .bo-1,.bo-2,.bo-3{
+	border-right: 1px solid gray;
+}
+.bott-1 .bo-1,.bo-4{
+	width: 400px;
+}
+.bott-1 .bo-2,.bo-3{
+	width: 270px;
+}
+
+.bott .bo-1 img{
+	display: block; position: absolute;top: 20px;right: 40px;
+}
+.bott-tab{
+	position: absolute;/*top: 20px;*/left: 35px;
+}
+.bott-tab tr{
+	height: 30px;
+}
+.bott-tab tr td:not(.big-td){
+	width: 100px;
+}
+.bo-4 span{
+	display: block;position: absolute;left: 40px;
+}
+.bo-4 img{
+	background-color: gray;
+}
+.bo-4 .img-weibo{
+	display: block;position: absolute;left: 40px;top: 30px;
+}
+.bo-4 img:hover{
+	background-color: red;
+}
+.bo-4 .img-weixin{
+	display: block;position: absolute;left: 90px;top: 30px;
+}
+
+.bott-cen{
+	width: 650px;margin: auto; margin-top: 170px; text-align: center;
+}
+.div5-wb{
+	width: 90px; height: 90px;
+	position: absolute;top: 80px;left: 40px;background-color: white;
+	border-left: 1px solid gainsboro; display: none;
+}
+.div6-wx{
+	width: 90px; height: 90px;
+	position: absolute;top: 80px;left: 40px;background-color: white;
+	border-left: 1px solid gainsboro; display: none;
+}
+.div5-wb div{
+	width: 10px; height: 10px;border-top: 1px solid black; 
+	border-left: 1px solid gainsboro;
+	position:absolute; top: -6px; left:15px;
+	transform: rotate(45deg);/*z-index: 2;*/
+	background-color: white;
+}
+.div5-wb img{
+	display: block;
+	position:absolute; top: 5px; left:5px;	        	
+}
+.div6-wx div{
+	width: 10px; height: 10px;border-top: 1px solid black; 
+	border-left: 1px solid gainsboro;
+	position:absolute; top: -6px; left:65px;
+	transform: rotate(45deg);/*z-index: 2;*/
+	background-color: white;
+}
+.div6-wx img{
+	display: block;
+	position:absolute; top: 5px; left:5px;	        	
+}

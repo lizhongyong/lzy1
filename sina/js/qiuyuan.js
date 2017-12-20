@@ -40,7 +40,28 @@ $(function(){
 	
 	})
 	
+	$(".qiuy-Name1 ul li").hover(function(){
+		$(this).css("overflow","visible");
+	},function(){
+		$(this).css("overflow","hidden");
+	})
+	$(".qiuy-Name2 ul li").hover(function(){
+		$(this).css("overflow","visible");
+	},function(){
+		$(this).css("overflow","hidden");
+	})
 	
+	$(".img-weibo").hover(function(){
+		$(".div5-wb").css("display","block");
+	},function(){
+		$(".div5-wb").css("display","none");
+	})
+	
+	$(".img-weixin").hover(function(){
+		$(".div6-wx").css("display","block");
+	},function(){
+		$(".div6-wx").css("display","none");
+	})
 	
 	
 })
